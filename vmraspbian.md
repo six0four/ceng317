@@ -25,7 +25,8 @@
 
 2.  Confirmed file location and size.
 
-2.  Started the machine and selected the previously downloaded ISO as the startup disk.
+2.  Start the machine and selected the previously downloaded ISO as the startup disk.
+
 
 2.  There will be a boot options screen on which you should choose the option for Graphical install.
 
@@ -33,11 +34,11 @@
 
 2.  The default partion settings are okay, say yes to write the changes to disk.
 
+2.  The first boot will repeat some configuration, skip the updates since it seems to hang and you can then do them from the terminal.
+
 2.  Once the system is up and running, select VirtualBox menu devices and enable a usb device should you want to use one.
 
 2.  
-
-2.  The updates may take 12:31-
 	
 	http://downloads.raspberrypi.org/raspbian/images/raspbian-2017-08-17/2017-08-16-raspbian-stretch.zip
 	http://downloads.raspberrypi.org/raspbian/images/raspbian-2018-06-29/2018-06-27-raspbian-stretch.zip
