@@ -2,92 +2,21 @@
  <HEADER ID="Header_Article_1">
   <H2>Building IoT Projects</H2>
  </HEADER>
- 
+
  <SECTION ID="Section_7">
   <H3>Week 7 Hardware</H3>
   <p>
    <ul>
-    <li>Show your acquisitions.</li>
-	<li>Pseudo code assignment grading due on blackboard this week.</li>
-	<li>Be sure to wear safety glasses and consult an expert (such as Kelly and/or Vlad in J233) regarding safety, you can even start at your local hackerspace (Ideally working towards IPC J-STD-001 Requirements for Soldered Electrical and Electronic Assemblies).</li>
-	<li>Also watch some soldering <a href="https://www.youtube.com/watch?v=BLfXXRfRIzY&list=PLQ32vZrF5U2lFOJTtZDytBWBYVLNp4RYz">videos</a>.</li>
-	<li><a href="http://radiojove.gsfc.nasa.gov/telescope/soldering.htm">NASA Jove Project.</a></li>
+   	<li>This week is the PCB designed milestone for which a graded blog entry is due (<a href="https://github.com/six0four/ceng317/tree/master/rubrics/AnalyticRubricforProgressReports.xml">rubric</a>).</li>
+	<li>Please note that the 6 pin stakable header is <a href="https://www.digikey.ca/products/en?keywords=SAM9289-ND">Digi-Key part number SAM9289-ND</a><img src="https://raw.githubusercontent.com/six0four/ceng317/master/6pinstackable.jpg" alt="header"></li>
+	<li>The socket part number is <a href="https://www.digikey.ca/products/en?keywords=S7014-ND">Digi-Key part number S7014-ND</a>, Kelly does say that <a href="https://www.digikey.ca/product-detail/en/3m/929974-01-36-RK/929974E-01-36-ND/1094289">Digi-Key part number 929974E-01-36-ND</a> may be better.</li>
+	<li>If you need pins, the part number is <a href="https://www.digikey.ca/products/en?keywords=S1011EC-40-ND">Digi-Key part number S1011EC-40-ND</a></li>
+	<li>Gerber file creation session.</li>
+    <li>Get your PCB laser etched in J233 with help from Kelly and/or Vlad by sending your Gerber files to their email address which is prototypelab_at_humber.ca. You may use our in house fabrication via them or use an alternative such as <a href="https://www.seeedstudio.com/fusion.html">SeeedStudio</a>.</li>
+	<li>Vlad says: "please ... come with a paper printout of your(sic) board so it’s easier to match the board with the student.</li>
 	<li>Next week is the breadboarded assembly milestone.</li>
    </ul>
   </p>
-  <H3>PSEUDO CODE ASSIGNMENT</H3>
-  <p>
-   <ul>This is a cross semester assignment with assigned groups as per your blackboard message:
-    <li>In third year students build a project. First year students will work with them to create pseudo code relevant to their project.</li>
-   </ul>
-   <ul>Computer Engineering Technology example project of a bicycle rental service
-    <li>There was a time that one would go to a bicycle rental company's
-		shack, provide something of value as a deposit and the person working
-		at the shack would provide a bicycle on the understanding that you
-		would return it along with payment for the amount of time that you
-		used it in exchange for return of your deposit.</li>
-	<li>Times have changed, now you use your smart phone to provide your
-		credit card information to the bicycle rental company and then you are
-		provided the code to unlock a bicycle and you are charged based on
-		when you next lock it up.</li>
-	<li>The Computer Engineering Technology capstone consists of creating
-		project similar to this. In this example there is a lock mechanism, a
-		set of buttons to enter a code, lights and sound to provide feedback.
-		In CENG 317, for this example, student A would build an I2C lock
-		mechanism, student B would build a I2C code entry interface, student C
-		would build a lights and sound I2C feedback device. In CENG 319,
-		students A, B and C would form a group to write the corresponding app.
-		In CENG 355, the group would package everything up together as a
-		functioning prototype.</li>
-	<li>This semester, each CENG 317 student will be paired up with one or two
-		TECH 104 students for help with pseudo code. These groups are assigned
-		and the pseudo code is due October 16th, 2018 via blackboard. You are
-		provided each other's email addresses via a blackboard message and you
-		need to arrange to meet outside of class time - the prototype lab
-		(J233) is a great place to meet. This is a 5% peer graded assignment
-		and the third year student should specify what I2C device they have
-		chosen and help one first year student write pseudo code to write data
-		from the I2C device to a cloud service/write data from a cloud service
-		to the I2C device. The third year student should help the second
-		student write device specific pseudo code for the app to read data
-		from a cloud service/write data to the cloud service from the app.</li>
-	<li>Each student will peer grade their other group members contribution
-		with the third year students providing information about the project
-		and the first year students writing the respective pseudo code. The
-		submissions will be
-		individual and be a single sided sheet of letter size pdf including
-		their grading of their peers. The resulting grades may be shifted for
-		a class average of 4/5 please use the following as a guideline:
-	 <ul>
-	  <li>Proficient 5</li>
-	  <li>Competent 4</li>
-	  <li>Basic 3</li>
-	  <li>Needs Improvement 2</li>
-	  <li>NA 1 (e.g. you met the student but code was not written)</li>
-	 </ul>
-	</li>
-	<li>First TECH104 Student: Provide the firmware pseudo code and grade the CENG317 student, example:
-	 <ul>setup{
-	  <li>Specify sensor's I2C address</li>
-	  <li>Specify data base credentials</li>
-	</ul>}
-	<ul>loop{
-	  <li>Read the sensor</li>
-	  <li>Insert into data base</li>
-	</ul>}
-	<li>Second TECH104 Student: Provide the pseudo code for android activities to display data from database and grade the CENG317 student, example:
-	 <ul>setup{
-	  <li>Show intro screen</li>
-	  <li>Enter credentials</li>
-	</ul>}
-	<ul>loop{
-	  <li>Query database</li>
-	  <li>Display data</li>
-	</ul>}
-	 <li>3rd year CENG Student: Provide System UML diagram and grade pseudo code of first and second TECH104 students.</li>
-	</li>
-   </ul>
-  </p>
- </SECTION>
- 
+ </SECTION> 
+
 </ARTICLE>

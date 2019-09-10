@@ -1,0 +1,131 @@
+<ARTICLE ID="Article_1">
+ <HEADER ID="Header_Article_1">
+  <H2>Building IoT Projects</H2>
+ </HEADER>
+	
+ <SECTION ID="Section_ReadingWeek">
+  <H3>Reading Week Hardware Study Day - no class</H3>
+  <p>
+   <ul>Consider whether you have:
+ 	<li>Ordered your parts and blogged about it - if it wasn't a study day then it would have been the milestone of bringing your parts to class.</li>
+	<li>Breadboarded your circuit to test your sensor with the development platform and use fritzing to record your work.</li>
+ 	<li>Blinked an LED on a crib Pi <a href="https://six0four.github.io/StudentSenseHat/cribpi.html">getting started https://six0four.github.io/StudentSenseHat/cribpi.html</a>.</li>
+	<li>Completed <a href="https://www.lynda.com/Raspberry-Pi-tutorials/Up-Running-Raspberry-Pi/191267-2.html">https://www.lynda.com/Raspberry-Pi-tutorials/Up-Running-Raspberry-Pi/191267-2.html</a></li>
+	<li>Reviewed: <a href="https://www.lynda.com/Software-Development-tutorials/Use-BJT-switch/502049/655694-4.html?autoplay=true">https://www.lynda.com/Software-Development-tutorials/Use-BJT-switch/502049/655694-4.html?autoplay=true</a></li>
+	<li>Next week: Show your acquisitions.</li> 
+   </ul>
+  </p>
+  <H3>PSEUDO CODE ASSIGNMENT</H3>
+  <p>
+   <ul>This is a cross semester assignment with assigned groups as per your blackboard message:
+    <li>In third year students build a project. First year students will work with them to create pseudo code relevant to their project.</li>
+   </ul>
+   <ul>Computer Engineering Technology example project of a bicycle rental service
+    <li>There was a time that one would go to a bicycle rental company's
+		shack, provide something of value as a deposit and the person working
+		at the shack would provide a bicycle on the understanding that you
+		would return it along with payment for the amount of time that you
+		used it in exchange for return of your deposit.</li>
+	<li>Times have changed, now you use your smart phone to provide your
+		credit card information to the bicycle rental company and then you are
+		provided the code to unlock a bicycle and you are charged based on
+		when you next lock it up.</li>
+	<li>The Computer Engineering Technology capstone consists of creating
+		project similar to this. In this example there is a lock mechanism, a
+		set of buttons to enter a code, lights and sound to provide feedback.
+		In CENG 317, for this example, student A would build an I2C lock
+		mechanism, student B would build a I2C code entry interface, student C
+		would build a lights and sound I2C feedback device. In CENG 319,
+		students A, B and C would form a group to write the corresponding app.
+		In CENG 355, the group would package everything up together as a
+		functioning prototype.</li>
+	<li>This semester, each CENG 317 student will be paired up with one or two
+		TECH 104 students for help with pseudo code. These groups are assigned
+		and the pseudo code is due October 16th, 2018 via blackboard. You are
+		provided each other's email addresses via a blackboard message and you
+		need to arrange to meet outside of class time - the prototype lab
+		(J233) is a great place to meet. This is a 5% peer graded assignment
+		and the third year student should specify what I2C device they have
+		chosen and help one first year student write pseudo code to write data
+		from the I2C device to a cloud service/write data from a cloud service
+		to the I2C device. The third year student should help the second
+		student write device specific pseudo code for the app to read data
+		from a cloud service/write data to the cloud service from the app.</li>
+	<li>Each student will peer grade their other group members contribution
+		with the third year students providing information about the project
+		and the first year students writing the respective pseudo code. The
+		submissions will be
+		individual and be a single sided sheet of letter size pdf including
+		their grading of their peers. The resulting grades may be shifted for
+		a class average of 4/5 please use the following as a guideline:
+	 <ul>
+	  <li>Proficient 5</li>
+	  <li>Competent 4</li>
+	  <li>Basic 3</li>
+	  <li>Needs Improvement 2</li>
+	  <li>NA 1 (e.g. you met the student but code was not written)</li>
+	 </ul>
+	</li>
+	<li>First TECH104 Student: Provide the firmware pseudo code and grade the CENG317 student, example:
+	 <ul>setup{
+	  <li>Specify sensor's I2C address</li>
+	  <li>Specify data base credentials</li>
+	</ul>}
+	<ul>loop{
+	  <li>Read the sensor</li>
+	  <li>Insert into data base</li>
+	</ul>}
+	<li>Second TECH104 Student: Provide the pseudo code for android activities to display data from database and grade the CENG317 student, example:
+	 <ul>setup{
+	  <li>Show intro screen</li>
+	  <li>Enter credentials</li>
+	</ul>}
+	<ul>loop{
+	  <li>Query database</li>
+	  <li>Display data</li>
+	</ul>}
+	 <li>3rd year CENG Student: Provide System UML diagram and grade pseudo code of first and second TECH104 students.</li>
+	</li>
+   </ul>
+	<li>2018-2019 A Projects:
+	 <ol>
+	  <li>Ease: <a href="https://github.com/rfmaynard/Accel-MagnetoMeter">Ryan</a>, 1306: <a href="https://github.com/dchristie75/SSD1306-monochrome-OLED">Delroy</a>, Keyboard: <a href="https://github.com/YamiYukiSenpai/MacroKeyTouchSensor">Jonas</a>.</li>
+	  <li>Infotainment: <a href="https://github.com/S-Danagher/TemperatureSensor-Project.git/">Sean-MCP9808</a>, <a href="https://github.com/RomarioT/TPA2016-I2C-Controlled-Amplifier">Romario-Amp</a>.</li>
+	  <li>LED: <a href="https://github.com/Kemar101/HT16K33">Kemar</a>, RTC: <a href="https://github.com/rulaone/DS3231">Rula</a>.</li>
+	  <li>NFC: <a href="https://github.com/markojavorac/NFC_Platform">Marko</a>, Digole: <a href="https://github.com/jacobladan/Digole-LCD-Display">Jacob</a>, Colour: <a href="https://github.com/denalddemirxhiu/Colorify/">Denald</a>.</li>
+	  <li><a href="https://github.com/JuanRodriguez19/SensorEffector/">Juan-Power</a>, HTU: <a href="https://github.com/JDinhGit/TempSensor">Johnson</a>, Haptic: <a href="https://github.com/JordanPulido/HapticMotorDrive">Jordan</a>.</li>
+	  <li>Dashboard<a href="https://github.com/Zhillp/SpeedTracker">Zhill-Speed</a>, <a href="https://github.com/KaranRajKanwar/DigitalDashboard">Karan Raj-Dash</a>.</li>
+	  <li>Parking: <a href="https://github.com/davista123/ParkingManagementSystem/">David</a>.</li>
+	  <li>AM2315: <a href="https://github.com/cblakley/TempSensor">Colin</a>.</li>	  
+	  <li>Nintendo: <a href="https://github.com/LeAndrew98/Wii-Nunchuck">Andrew</a>.</li>
+	  <li>Lumi: <a href="https://github.com/AdrienYKC/YongMeIn">Adrien</a>.</li>
+     </ol>
+	</li>
+	<li>2018-2019 Mixed (A/B) Projects:
+	 <ol>
+  	  <li>BME: <a href="https://github.com/sam9dadet/CENG-317">Samuel</a>, <a href="https://github.com/KogulB/KogulBCENG317Project">Kogul</a>, <a href="https://github.com/kyelehaynes/CENG317HardwareProject">Kyele</a>.</li>
+	  <li>Speedo: <a href="https://github.com/BlueDaroosh/handheldSpedometer">Dariusz</a>, UV: <a href="https://github.com/pctn0007/mySafeUV">Anthony</a>, Current: <a href="https://github.com/LosesonWinson/CurrentSensor">Winson</a>.</li>
+</li>
+
+	 </ol>
+	</li>
+	<li>2018-2019 B Projects:
+	 <ol>
+	  <li>SmartWear: <a href="https://github.com/JayJadav/smartware">Jay</a>, <a href="https://github.com/anshulsanan/smart_wear">Anshul</a>.</li>
+	  <li>3DTelemetry: <a href="https://github.com/GursehajHarika/barometricsensor">Gursehaj</a>, <a href="https://github.com/ArmanVelani/3axaccel">Arman</a>, <a href="https://github.com/Shubhamsharma1101/TEMPSENS">Shubham</a>.</li>
+	  <li>TerrestrialTelematics: <a href="https://github.com/ngtrangminhduc/OverheatSensor">Duc</a>, <!-- look into sensor availability --> <a href="https://github.com/AldousMendoza/ObstructionSensor">Aldous</a>, <a href="https://github.com/biodunduke/ServoMotorDriver">Abiodun</a>.</li>
+	  <li>FruitRipeness: <a href="https://github.com/SuongLuong/SuongLuong/">Suong</a>, <a href="https://github.com/Kritish007/portablesolarsystem">Divendra</a>, <a href="https://github.com/RutvijDodiya/Temperature-Sensor">Rutvij</a>.</li>
+	  <li>: <a href="https://github.com/Simarjeet-Brar/CENG317">Simarjeet</a>.</li>
+	  <li>: <a href="https://github.com/n01103934/Thermometer">Malin</a>.</li>
+	  <li>FumeSafety: <a href="https://princesshernandez.github.io/VOC_Sensor">Princess</a>, <a href="https://github.com/chenken12/L3GD20H-gyroscope">Kenneth</a>.</li>
+	  <li>PlantNursery: <a href="https://github.com/Jasleen-Grewal/Nursery">Jasleen</a>, <a href="https://github.com/GifZeb/Nursery">Tarundeep</a>, <a href="https://github.com/Divya-Aggarwal/Arboretum">Divya</a>.</li>
+	  <li>: <a href="https://github.com/kuljeet-Singh/charli0x74">Kuljeet</a>, <a href="https://github.com/sahilsaini0014/ResistiveTouch">Sahil</a>, <a href="https://github.com/gsmann997/Max3010Sensor">Gurpreet</a>.</li>
+	  <li>Campus Navigator/Explorer: <a href="https://github.com/IshanKhuttan/HumberNavigator">Ishan-STM32</a>, <a href="https://github.com/HumberCampusNavigator/North">Bettin-LSM9DS0</a>, <a href="https://github.com/HumberCampusExplorer/CampusExplorer">Anoopjot-TMP36</a>.</li>
+	  <li>Movietuvi: <a href="https://github.com/Anubhavchoudhary009/motion-sensor">Anubhav-BNO055</a>, <a href="https://github.com/4nmdk/hifboxwearable">Jeremy-FXAS21002</a>.</li>
+      <li>Digital Radio: <a href="https://github.com/DarrenProng/Hardware-Production">Darren-TEA5767</a>.</li>
+	 </ol>
+	</li>
+  </p>
+ </SECTION>
+ 
+</ARTICLE>
