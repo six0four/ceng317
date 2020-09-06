@@ -1,0 +1,88 @@
+<ARTICLE ID="Article_1">
+ <HEADER ID="Header_Article_1">
+  <H2>Building IoT Projects</H2>
+ </HEADER>
+
+ <SECTION ID="Section_1">
+  <H3><a href="https://learn.humber.ca">See Blackboard</a></H3>
+  <p>
+   <ul>
+    <li>In this course we build a circuit board for a computing node. It is an individual course such that each student acquires design experience. </li>
+	<li>Please let me know if you are in a situation of financial need. Ordering the hardware for your design, even when sharing the costs with colleagues will cost you over $100. I compare this to a cost of a textbook but please do let me (firstname.lastname_at_humber.ca) know sooner rather than later if this may be a problem for you.</li>
+   	<li>Hub and spokes distributed computing model. Connection from spokes can be via many different technologies: USB, I2C, SPI, UART, encrypted serial, 1-wire, Wi-Fi, Bluetooth, Cell, LoRa, Sigfox, DMX, CANbus, LINbus, EtherCATBACNet, Profinet, Modbus, IR, Zigbee, Z-Wave, LonTalk, Insteon, Powerline, Mesh, etc.
+<img src="https://raw.githubusercontent.com/six0four/ceng317/master/images/1process2control.jpg"></li>
+	<li>The connection technology that we will be using to a hub will be USB but the spoke itself may use other forms.<img src="https://raw.githubusercontent.com/six0four/ceng317/master/images/cribpi.jpg"></li>
+	<li>Discussion of platform (stm32f103c8t6).<img src="https://raw.githubusercontent.com/six0four/ceng317/master/images/stm32f103c8t6.jpg"></li>
+	<li>Overall project maximum dimensions of 12 13/16" x 6" x 2 7/8" (32.5cm x 15.25cm x 7.25cm) which represents the space below the tray in the parts kit.</li>
+	<li>Project case to be designed for 3D printing/laser cutting.</li>
+	<li>The highest AC voltage that will be used is 16Vrms from a wall adaptor from which +/- 15V or as high as 45 VDC can be obtained. Maximum power consumption will be 20 Watts.</li>
+    <li>We work with prototypes and prototypes are not to be left powered unattended.</li>
+    <li>Projects:
+	 <ol>
+	 0. CHOOSE a project of your own by the begining of class week 2 that:
+-Uses a custom made and assembled PCB with a STM32F103C8T6 using https://libopencm3.org/ to create a USB device with a sensor or an effector that communicates via serial to a computer.
+-Complete Project should be designable for
+https://www.seeedstudio.com/prototype-pcb-assembly.html
+with parts from
+https://www.seeedstudio.com/opl.html
+in order to have project done in time to program/debug it and recieve a grade.
+
+OR CHOOSE a project from the list below by the begining of class week 2, only one student from each section can choose a particular project. Choices are made by being the first to post your choice to the blackboard discussion thread corresponding to your section:
+      
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/01.PCF8574">PCF8574 two LEDs, resistors, switch</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/02.OLED">OLED QG-2864KSWEG02</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/03.CANbus">CANBus</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/04.ADC">ADC potentiometer</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/05.Servo">Servo and CD4050BE</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/06.W25Q64JVDAIM">W25Q64JVDAIM</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/07.SDcard">SD card</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/08.DS18B20">DS18B20</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/09.Battery">Battery</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/10.BME280">BME 280</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/11.Sigfox">Sigfox</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/12.LM75">ST LM75</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/13.Joystick">Joystick</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/14.7Segment">7 Segment</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/15.I2Cslave-master">I2C slave (convert Celcius to Farenheit) and master</a></li>
+      <li><a href="https://github.com/six0four/ceng317/tree/master/2020projects/16.STLink-master">ST-Link and target</a></li>
+     </ol>
+     Please choose one of these first come first serve on the discussion board corresponding to your section.
+     <ul>
+	  <li>RTOS PCBA order subcircuits: 1-6</li>
+      <li>Temperature logger PCBA order subcircuits: 7-11</li>
+      <li>User interface PCBA order subcircuits: 12-16</li>
+	 </ul>
+    </li>
+    <li>For the winter term (starting Jan 2021) our focus is on six areas of ongoing/continuing multi-year work. In these areas, we welcome brief project charters from industry that propose the scope, mandate, and contain the system specification (design approach and requirements).
+	 <ol>
+      <li>Facilities: Bicycle Rental/Parking Lot/Vision System</li>
+      <li>Building Automation: Greenhouse/SolarPanel/Home</li>
+      <li>Consumer: Entertainment Protocol DMX/Baby Monitoring Project</li>
+      <li>Education: Robust Hackable Educational Project</li>
+      <li>Robotics: Control/Navigation/Dashboard</li>
+      <li>Health and Wellness: Wearable
+     </ol>
+	</li>
+    <li>There was a time that one would go to a bicycle rental company's
+		  shack, provide something of value as a deposit and the person working
+	  	  at the shack would provide a bicycle on the understanding that you
+		  would return it along with payment for the amount of time that you
+		  used it in exchange for return of your deposit.   </li>
+		  <img src="https://www.torontoisland.com/images/bike/IMG_1697.JPG">
+	<li>Times have changed, now you use your smart phone to provide your
+		  credit card information to the bicycle rental company and then you are
+		  provided the code to unlock a bicycle and you are charged based on
+		  when you next lock it up.	   </li>
+		  <img src="https://humber.ca/staff/sites/default/files/sub-images/dropbike%20lake%20and%20north.jpg">
+	<li>The Computer Engineering Technology capstone consists of creating
+		  project similar to this. In this example there is a lock mechanism, a
+		  set of buttons to enter a code, lights and sound to provide feedback.
+		  In CENG 317, students learn how to build the spokes. In CENG 319,
+		  students learn how to write the corresponding app.
+		  In CENG 355, the group would package everything up together as a
+		  functioning prototype.   </li>
+		  <img src="https://raw.githubusercontent.com/six0four/ceng317/master/images/bikeshare.jpg">
+   </ul>
+  </p>
+ </SECTION> 
+</ARTICLE>
