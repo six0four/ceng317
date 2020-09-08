@@ -19,7 +19,7 @@
     3. Voltage range:
 	4. Current draw:
 	5. Protocol:
-	6. Additional components needed: 2 capacitors, 4 resistors, 2 LEDs, and a battery (e.g. Adafruit Product ID: 2750)
+	6. Additional components needed: 2 capacitors, 4 resistors, 2 LEDs, JST connector, and a battery (e.g. Adafruit Product ID: 2750)
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [Similarly functioning product](https://learn.adafruit.com/adafruit-pro-trinket-lipoly-slash-liion-backpack/downloads)
