@@ -12,7 +12,7 @@
 	4. Link: https://www.mouser.com/datasheet/2/783/BST-BME280_DS001-11-844833.pdf
     5. Description:	SENSOR PRESSURE HUMIDITY TEMP
 	6. Manufacturer: Bosch
-	7. Package: 
+	7. Package: 2.5mmx2.5mm LGA
 4. Specifications
     1. What does it sense/effect?
 	2. How accurate is it?
