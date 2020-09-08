@@ -18,7 +18,7 @@
 	2. How accurate is it?
     3. Voltage range:
 	4. Current draw:
-	5. Protocol:
+	5. Protocol: I2C
 	6. Additional components needed:
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
