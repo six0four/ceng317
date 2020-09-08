@@ -8,9 +8,9 @@
 3. Preliminary Bill of Materials
     1. OPL: [Choose ShenZhen or Seeed](https://www.seeedstudio.com/opl.html)
     2. MPN: 
-	3. Qty: 1
+	3. Qty: 2
 	4. Link: 
-    5. Description: Potentiometer
+    5. Description: 10 kOhm potentiometer
 	6. Manufacturer: 
 	7. Package: 
 4. Specifications
@@ -22,5 +22,5 @@
 	6. Additional components needed:
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
-[Beginning STM32](https://learning-oreilly-com.ezproxy.humber.ca/library/view/beginning-stm32-developing/9781484236246/html/465982_1_En_1_Chapter.xhtml)     
+[Beginning STM32 Chapter 14, especially Figure 14-2](https://learning-oreilly-com.ezproxy.humber.ca/library/view/beginning-stm32-developing/9781484236246/html/465982_1_En_1_Chapter.xhtml)     
 [Code](https://github.com/Apress/Beg-STM32-Devel-FreeRTOS-libopencm3-GCC/tree/master/rtos/adc)
