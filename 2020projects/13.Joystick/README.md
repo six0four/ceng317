@@ -21,5 +21,5 @@
 	5. Protocol:
 	6. Additional components needed:
 5. References:    
-[Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)
+[Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [Code](https://github.com/libopencm3/libopencm3-examples/blob/master/examples/stm32/f1/waveshare-open103r/joystick/joystick.c)
