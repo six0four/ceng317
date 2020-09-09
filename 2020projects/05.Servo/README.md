@@ -7,10 +7,10 @@
 2. I will make a USB serial device that will (choose: send output from a sensor, or, receive input for an effector) via [Seeed Studio assembly](https://www.seeedstudio.com/fusion_pcb.html). This can be connected via a USB cable to a PC and PuTTY can be used for debugging. They can then also be connected to a Pi via USB but not necessarily this term. 
 3. Preliminary Bill of Materials
     1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
-    2. MPN: 
+    2. MPN: 74VHC125MTCX may be able to be used in place of CD4050BE
 	3. Qty: 1
 	4. Link: 
-    5. Description:	74VHC125MTCX may be able to be used in place of CD4050BE
+    5. Description:	
 	6. Manufacturer: 
 	7. Package: 
 4. Specifications
