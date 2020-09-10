@@ -1,0 +1,32 @@
+# CENG 317 Proposal
+1. Basic info
+    1. Name: Kristian Medri
+	2. Date: 2020-09-09
+	3. Section: ABC
+	4. Sensor/Effector choice: LEDbar
+2. I will make a USB serial device that will receive input for an effector (LED gauge bar) via [Seeed Studio assembly](https://www.seeedstudio.com/fusion_pcb.html). This can be connected via a USB cable to a PC and PuTTY can be used for debugging. They can then also be connected to a Pi via USB but not necessarily this term. 
+3. Preliminary Bill of Materials
+    1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
+    2. MPN: SP400561N
+	3. Qty: 1
+	4. Link: https://statics3.seeedstudio.com/images/opl/datasheet/304080004.pdf
+    5. Description:	LED 10 SEG Gauge Bar
+	6. Manufacturer: Incorrect data sheet?
+	7. Package: PTH
+4. Specifications
+    1. What does it sense/effect? Provides visual bar graph display to users.
+	2. How accurate is it? It has 10 segments.
+    3. Voltage range: Forward voltage of 2.1V
+	4. Current draw: Design for 10mA/segment
+	5. Protocol: GPIO
+	6. Additional components needed:
+	    1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
+		2. MPN: RC0603JR-07220RL
+		3. Qty: 10
+		4. Link: https://statics3.seeedstudio.com/images/opl/datasheet/301010163.pdf
+		5. Description:	220 Ohm Resistor
+		6. Manufacturer: Yageo
+		7. Package: 0603
+    7. Additional components continued: Jumpers?
+5. References:    
+[Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
