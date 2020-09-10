@@ -6,10 +6,10 @@
      4. Sensor/Effector choice: Sigfox
 2. I will make USB serial device, that will send output to a network, via [Seeed Studio assembly](https://www.seeedstudio.com/fusion_pcb.html). This can be connected via a USB cable to a PC and PuTTY can be used for debugging. They can then also be connected to a Pi via USB but not necessarily this term. 
 3. Preliminary Bill of Materials
-    1. OPL: [Choose ShenZhen or Seeed](https://www.seeedstudio.com/opl.html)
+    1. Source: [WSSFM10R2](http://support.seongji.co.kr/)
     2. MPN: 
 	3. Qty: 1
-	4. Link: 
+	4. Link: https://seasluglabs.io/collections/frontpage/products/wisol-breakout-board
     5. Description:	
 	6. Manufacturer: 
 	7. Package: 
