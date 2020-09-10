@@ -20,7 +20,7 @@
 	4. Current draw:
 	5. Protocol:
 	6. Additional components needed:	
-        1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
+        1. OPL: [ShenZhen](https://www.seeedstudio.com/opl.html)
         2. MPN: 210S-1*3P L=11.6MM
 	    3. Qty: 1
 	    4. Link: https://www.seeedstudio.com/opl.html
