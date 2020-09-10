@@ -10,7 +10,7 @@
     2. MPN: PCF8574T
 	3. Qty: 1
 	4. Link: https://file.elecfans.com/web1/M00/9B/19/pIYBAF0in5uADzK0ABNP3f9TvMM941.pdf?filename=PCF8574_HGSEMI.pdf
-    5. Description:	
+    5. Description:	I2C 8 I/O
 	6. Manufacturer: HGSEMI
 	7. Package: SOP-16
 4. Specifications
@@ -18,7 +18,7 @@
 	2. How accurate is it?
     3. Voltage range:
 	4. Current draw:
-	5. Protocol:
+	5. Protocol: I2C
 	6. Additional components needed: Beginning STM32 Figure 11-9 two LEDs, resistors, switch
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
