@@ -12,7 +12,7 @@
 	4. Link: https://statics3.seeedstudio.com/images/opl/datasheet/304080005.pdf
     5. Description:	LED Red 4-DIG 7-SEG Display
 	6. Manufacturer: FANGZHOU
-	7. Package: 
+	7. Package: PTH
 4. Specifications
     1. What does it sense/effect?
 	2. How accurate is it?
