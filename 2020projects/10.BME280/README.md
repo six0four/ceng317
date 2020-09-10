@@ -4,9 +4,9 @@
      2. Date: 
      3. Section:
      4. Sensor/Effector choice: BME280
-2. I will make USB serial device that will (choose: send output from a sensor, or, receive input for an effector) via [Seeed Studio assembly](https://www.seeedstudio.com/fusion_pcb.html). This can be connected via a USB cable to a PC and PuTTY can be used for debugging. They can then also be connected to a Pi via USB but not necessarily this term. 
+2. I will make USB serial device, that will send output from a sensor, via [Seeed Studio assembly](https://www.seeedstudio.com/fusion_pcb.html). This can be connected via a USB cable to a PC and PuTTY can be used for debugging. They can then also be connected to a Pi via USB but not necessarily this term. 
 3. Preliminary Bill of Materials
-    1. OPL: [Choose ShenZhen or Seeed](https://www.seeedstudio.com/opl.html)
+    1. OPL: [ShenZhen](https://www.seeedstudio.com/opl.html)
     2. MPN: BME280
 	3. Qty: 1
 	4. Link: https://www.mouser.com/datasheet/2/783/BST-BME280_DS001-11-844833.pdf
