@@ -19,7 +19,12 @@
     3. Voltage range:
 	4. Current draw:
 	5. Protocol:
-	6. Additional components needed: Servo
+	6. Additional components needed:	
+	    1. [Seeed Studio](https://www.seeedstudio.com/)
+		2. SKU: 108090000
+		3. Qty: 1
+		4. Link: https://www.seeedstudio.com/EMAX-9g-ES08A-High-Sensitive-Mini-Servo-p-760.html
+		5. Description:	EMAX 9g ES08A High Sensitive Mini Servo
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [Beginning STM32 Chapter 16](https://learning-oreilly-com.ezproxy.humber.ca/library/view/beginning-stm32-developing/9781484236246/html/465982_1_En_1_Chapter.xhtml)     
