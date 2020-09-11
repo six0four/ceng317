@@ -18,8 +18,16 @@
 	2. How accurate is it?
     3. Voltage range:
 	4. Current draw:
-	5. Protocol:
+	5. Protocol: GPIO
 	6. Additional components needed:
+		1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
+		2. MPN: RC0603JR-07220RL
+		3. Qty: 8
+		4. Link: https://statics3.seeedstudio.com/images/opl/datasheet/301010163.pdf
+		5. Description:	220 Ohm Resistor
+		6. Manufacturer: Yageo
+		7. Package: 0603
+    7. Additional components continued: Jumpers?
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
-[If you forgot how these work](https://osoyoo.com/2017/08/08/arduino-lesson-4-digit-7-segment-led-display/)
+[How a 7 segment display works on a different microcontroller](https://osoyoo.com/2017/08/08/arduino-lesson-4-digit-7-segment-led-display/)
