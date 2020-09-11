@@ -21,4 +21,5 @@
 	5. Protocol:
 	6. Additional components needed:
 5. References:    
-[Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)
+[Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
+[If you forgot how these work](https://osoyoo.com/2017/08/08/arduino-lesson-4-digit-7-segment-led-display/)
