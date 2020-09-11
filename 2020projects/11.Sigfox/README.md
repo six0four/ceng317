@@ -19,7 +19,15 @@
     3. Voltage range:
 	4. Current draw:
 	5. Protocol:
-	6. Additional components needed:
+	6. Additional components needed: [Buzzer?](https://github.com/themightyteam/bluepill-examples/tree/master/examples/buzzer) If finding an appropriate Seong Ji part is becoming overwhelming, I would consider playing some music via a buzzer instead. The route to Sigfox for us seems to be a breakout board. Let me know your thoughts.
+	    1. OPL: [ShenZhen](https://www.seeedstudio.com/opl.html)
+        2. MPN: Piezo
+	    3. Qty: 1
+	    4. Link: https://www.murata.com/~/media/webrenewal/support/library/catalog/products/sound/p37e.ashx
+        5. Description:	Pins for servo
+	    6. Manufacturer: Murata
+	    7. Package: 
+
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [STM32 to sigfox](https://medium.com/coinmonks/connect-stm32-blue-pill-to-sigfox-28c6f91bddc1)    
