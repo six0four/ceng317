@@ -6,13 +6,13 @@
      4. Sensor/Effector choice: Joystick
 2. I will make USB serial device that will (choose: send output from a sensor, or, receive input for an effector) via [Seeed Studio assembly](https://www.seeedstudio.com/fusion_pcb.html). This can be connected via a USB cable to a PC and PuTTY can be used for debugging. They can then also be connected to a Pi via USB but not necessarily this term. 
 3. Preliminary Bill of Materials
-    1. OPL: [Choose ShenZhen or Seeed](https://www.seeedstudio.com/opl.html)
-    2. MPN: 
+    1. OPL: [ShenZhen](https://www.seeedstudio.com/opl.html)
+    2. MPN: SKRHABE010
 	3. Qty: 1
-	4. Link: 
-    5. Description:	
-	6. Manufacturer: 
-	7. Package: 
+	4. Link: https://tech.alpsalpine.com/prod/e/html/multicontrol/switch/skrh/skrhabe010.html
+    5. Description:	4-direction with Center-push Function 
+	6. Manufacturer: ALPS
+	7. Package: SMD
 4. Specifications
     1. What does it sense/effect?
 	2. How accurate is it?
