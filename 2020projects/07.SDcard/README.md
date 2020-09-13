@@ -9,17 +9,18 @@
     1. OPL: [ShenZhen](https://www.seeedstudio.com/opl.html)
     2. MPN: DM1AA-SF-PEJ(82)
 	3. Qty: 1
-	4. Link: 
-    5. Description:	
-	6. Manufacturer: 
+	4. Link: https://www.hirose.com/product/download/?distributor=digikey&type=2d&lang=en&num=DM1AA-SF-PEJ(82)
+    5. Description:	CONN SD CARD PUSH-PUSH R/A SMD
+	6. Manufacturer: Hirose Electric
 	7. Package: 
 4. Specifications
     1. What does it sense/effect?
 	2. How accurate is it?
     3. Voltage range:
 	4. Current draw:
-	5. Protocol:
+	5. Protocol: SPI
 	6. Additional components needed:
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
-[DIY logger](https://www.shortn0tes.com/2017/11/diy-temperature-logger-with-stm32f103.html)
+[DIY logger](https://www.shortn0tes.com/2017/11/diy-temperature-logger-with-stm32f103.html)    
+[SD Standard Overview](https://www.sdcard.org/developers/overview/)
