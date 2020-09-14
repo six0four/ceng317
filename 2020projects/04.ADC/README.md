@@ -17,7 +17,7 @@
     1. What does it sense/effect?
 	2. How accurate is it?
     3. Voltage range:
-	4. Current draw:
+	4. Current draw: I=V/R
 	5. Protocol:
 	6. Additional components needed:
 5. References:    
