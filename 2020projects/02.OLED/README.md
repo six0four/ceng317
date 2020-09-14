@@ -23,6 +23,12 @@
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [Beginning STM32 Chapters 12 and 13](https://learning-oreilly-com.ezproxy.humber.ca/library/view/beginning-stm32-developing/9781484236246/html/465982_1_En_1_Chapter.xhtml)      
+Figure 12-4: Pins 3.3/GND, 
+PA15, 
+PB3, 
+PB5, 
+PB10, 
+PB11.     
 [Code] (https://github.com/Apress/Beg-STM32-Devel-FreeRTOS-libopencm3-GCC/tree/master/rtos/oled)     
 [Hand soldering OLED]
 (https://www.youtube.com/watch?v=ywh_6SPNrSg)
