@@ -23,4 +23,5 @@
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [STM32 to sigfox](https://medium.com/coinmonks/connect-stm32-blue-pill-to-sigfox-28c6f91bddc1)    
-[Activating sigfox](https://backend.sigfox.com/activate)
+[Activating sigfox](https://backend.sigfox.com/activate)    
+[Reference Design](https://community.bosch-sensortec.com/t5/Knowledge-base/BME280-series-humidity-sensor-design-guide/ta-p/7385)
