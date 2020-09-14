@@ -14,8 +14,8 @@
 	6. Manufacturer: Hirose Electric
 	7. Package: 
 4. Specifications
-    1. What does it sense/effect?
-	2. How accurate is it?
+    1. What does it sense/effect? It can interface with an SD card to read and write data. 
+	2. How accurate is it? Reliability is around ______ cycles.
     3. Voltage range:
 	4. Current draw:
 	5. Protocol: SPI
