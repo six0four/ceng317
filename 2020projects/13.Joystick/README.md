@@ -20,6 +20,8 @@
 	4. Current draw:
 	5. Protocol:
 	6. Additional components needed: 4 LEDs, 4 resistors
+	7. Pins:
+	8. Footprint: 
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [Code N.B. use port A or B instead of port C](https://github.com/libopencm3/libopencm3-examples/blob/master/examples/stm32/f1/waveshare-open103r/joystick/joystick.c)
