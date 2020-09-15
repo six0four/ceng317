@@ -9,7 +9,8 @@
     1. OPL: [ShenZhen](https://www.seeedstudio.com/opl.html)
     2. MPN: SKRHABE010, RKJXK122400Y
 	3. Qty: 1
-	4. Link: https://tech.alpsalpine.com/prod/e/html/multicontrol/switch/skrh/skrhabe010.html
+	4. Links: https://tech.alpsalpine.com/prod/e/html/multicontrol/switch/skrh/skrhabe010.html,
+	https://www.mouser.ca/datasheet/2/15/RKJXK-1370937.pdf
     5. Description:	4-direction with Center-push Function, Analog joystick 
 	6. Manufacturer: ALPS
 	7. Package: SMD, PTH
