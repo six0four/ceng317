@@ -18,7 +18,7 @@
 	2. How accurate is it?
     3. Voltage range:
 	4. Current draw:
-	5. Protocol: 
+	5. Protocol: SPI
 	6. Footprint:
 	7. STM32 Pins used: 3.3V, GND, PA15, PB3, PB5, PB10, PB11
 	8. Additional components needed: 4.7kOhm resistor plus entire breakout board circuit.
