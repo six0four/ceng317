@@ -3,8 +3,8 @@
      1. Name: 
      2. Date: 
      3. Section:
-     4. Sensor/Effector choice: 7 Segment Display
-2. I will make USB serial device that will (choose: send output from a sensor, or, receive input for an effector) via [Seeed Studio assembly](https://www.seeedstudio.com/fusion_pcb.html). This can be connected via a USB cable to a PC and PuTTY can be used for debugging. They can then also be connected to a Pi via USB but not necessarily this term. 
+     4. Effector choice: 7 Segment Display
+2. I will make USB serial device, that will receive input for an effector, via [Seeed Studio assembly](https://www.seeedstudio.com/fusion_pcb.html). This can be connected via a USB cable to a PC and PuTTY can be used for debugging. It can then also be connected to a Pi via USB but not necessarily this term. 
 3. Preliminary Bill of Materials
     1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
     2. MPN: SYD3642ASR
@@ -19,7 +19,9 @@
     3. Voltage range:
 	4. Current draw:
 	5. Protocol: GPIO
-	6. Additional components needed:
+	6. Footprint:
+	7. STM32 Pins used: 
+	8. Additional components needed:
 		1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
 		2. MPN: RC0603JR-07220RL
 		3. Qty: 8
@@ -27,7 +29,7 @@
 		5. Description:	220 Ohm Resistor
 		6. Manufacturer: Yageo
 		7. Package: 0603
-    7. Additional components continued: Jumpers?
+    9. Additional components continued: Jumpers?
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [How a 7 segment display works on a different microcontroller](https://osoyoo.com/2017/08/08/arduino-lesson-4-digit-7-segment-led-display/)
