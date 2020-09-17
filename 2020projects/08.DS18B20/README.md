@@ -20,8 +20,8 @@
 	4. Current draw:
 	5. Protocol:
 	6. Footprint:
-	7. STM32 Pins used: 3.3V, GND, 
-	8. Additional components needed:
+	7. STM32 Pins used: 3.3V, GND, PB12, (optional PB11 button)
+	8. Additional components needed: 4.7kOhm resistor
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [DIY logger](https://www.shortn0tes.com/2017/11/diy-temperature-logger-with-stm32f103.html)
