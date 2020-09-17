@@ -4,7 +4,7 @@
      2. Date: 
      3. Section:
      4. Sensor/Effector choice: SD card
-2. I will make s USB serial device that will (choose: send output from a sensor, or, receive input for an effector) via [Seeed Studio assembly](https://www.seeedstudio.com/fusion_pcb.html). This can be connected via a USB cable to a PC and PuTTY can be used for debugging. They can then also be connected to a Pi via USB but not necessarily this term. 
+2. I will make s USB serial device that will (choose: send output from a sensor, or, receive input for an effector) via [Seeed Studio assembly](https://www.seeedstudio.com/fusion_pcb.html). This can be connected via a USB cable to a PC and PuTTY can be used for debugging. It can then also be connected to a Pi via USB but not necessarily this term. 
 3. Preliminary Bill of Materials
     1. OPL: [ShenZhen](https://www.seeedstudio.com/opl.html)
     2. MPN: DM1AA-SF-PEJ(82)
@@ -18,8 +18,10 @@
 	2. How accurate is it? Reliability is around ______ cycles.
     3. Voltage range:
 	4. Current draw:
-	5. Protocol: SPI
-	6. Additional components needed:
+	5. Protocol: SPI 
+	6. Footprint:
+	7. STM32 Pins used: 3.3V, GND, PA4, PA5, PA6, PA7
+	8. Additional components needed:
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [DIY logger](https://www.shortn0tes.com/2017/11/diy-temperature-logger-with-stm32f103.html)    

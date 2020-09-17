@@ -3,8 +3,8 @@
     1. Name: Kristian Medri
 	2. Date: 2020-09-09
 	3. Section: ABC
-	4. Sensor/Effector choice: LEDbar
-2. I will make a USB serial device that will receive input for an effector (LED gauge bar) via [Seeed Studio assembly](https://www.seeedstudio.com/fusion_pcb.html). This can be connected via a USB cable to a PC and PuTTY can be used for debugging. They can then also be connected to a Pi via USB but not necessarily this term. 
+	4. Effector choice: LEDbar
+2. I will make a USB serial device, that will receive input for an effector (LED gauge bar), via [Seeed Studio assembly](https://www.seeedstudio.com/fusion_pcb.html). This can be connected via a USB cable to a PC and PuTTY can be used for debugging. It can then also be connected to a Pi via USB but not necessarily this term. 
 3. Preliminary Bill of Materials
     1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
     2. MPN: SP400561N
@@ -19,7 +19,9 @@
     3. Voltage range: Forward voltage of 2.1V
 	4. Current draw: Design for 10mA/segment
 	5. Protocol: GPIO
-	6. Additional components needed:
+	6. Footprint: In fritzing search for "led_bar" 
+	7. STM32 Pins used: 3.3V, GND, 10 GPIO, 7 could be via the PCF8574 P0-P6, currently PA0-PA7 so far.
+	8. Additional components needed:
 	    1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
 		2. MPN: RC0603JR-07220RL
 		3. Qty: 10
