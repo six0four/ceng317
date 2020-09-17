@@ -21,7 +21,7 @@
 	5. Protocol: SPI (I2C possible)
 	6. Footprint: BME280r2 provided in Fritzing example file.
 	7. STM32 Pins used: 3.3V, GND, SPI: PA4, PA5, PA6, PA7, UART: PA2, PA3
-	8. Additional components needed:
+	8. Additional components needed: Page 39 of datasheet: C1 and C2 100nF
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [STM32 to sigfox](https://medium.com/coinmonks/connect-stm32-blue-pill-to-sigfox-28c6f91bddc1)    
