@@ -20,7 +20,7 @@
 	4. Current draw:
 	5. Protocol:
 	6. Footprint:
-	7. STM32 Pins used: 5V?, GND, 
+	7. STM32 Pins used: 5V?, GND, 3.3V
 	8. Additional components needed: 2 capacitors, 4 resistors, 2 LEDs, JST connector, and a battery (e.g. Adafruit Product ID: 2750)
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
