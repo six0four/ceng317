@@ -24,4 +24,5 @@
 	8. Additional components needed: 3x10kOhm, 1x0.1uFCap
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
-[Code](https://github.com/libopencm3/libopencm3-examples/tree/master/examples/stm32/f1/other/i2c_stts75_sensor)
+[Code](https://github.com/libopencm3/libopencm3-examples/tree/master/examples/stm32/f1/other/i2c_stts75_sensor)    
+[An option for the Overlimit signal/interrupt alert output](https://www.raspberry-pi-geek.com/Archive/2015/12/Controlling-the-LM75-temperature-sensor-on-the-I2C-bus)
