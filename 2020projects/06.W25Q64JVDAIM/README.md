@@ -18,11 +18,11 @@
 	2. How accurate is it?
     3. Voltage range:
 	4. Current draw:
-	5. Protocol:
+	5. Protocol: SPI
 	6. Footprint:
-	7. STM32 Pins used: 
-	8. Additional components needed:
+	7. STM32 Pins used: 3.3V, GND, PA4, PA5, PA6, PA7
+	8. Additional components needed: 10kOhm resistor
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
-[Beginning STM32 Chapters 8 and 9](https://learning-oreilly-com.ezproxy.humber.ca/library/view/beginning-stm32-developing/9781484236246/html/465982_1_En_1_Chapter.xhtml)     
+[Beginning STM32 Chapters 8 and 9 especially Figure 8-3](https://learning-oreilly-com.ezproxy.humber.ca/library/view/beginning-stm32-developing/9781484236246/html/465982_1_En_1_Chapter.xhtml)     
 [Code](https://github.com/Apress/Beg-STM32-Devel-FreeRTOS-libopencm3-GCC/tree/master/rtos/winbond)

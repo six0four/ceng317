@@ -20,7 +20,7 @@
 	4. Current draw: I=V/R
 	5. Protocol: Analog
 	6. Footprint: In fritzing search for "09032"
-	7. STM32 Pins used: PA0, PA1
+	7. STM32 Pins used: 3.3V, GND, PA0, PA1
 	8. Additional components needed:
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    

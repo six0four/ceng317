@@ -20,7 +20,7 @@
 	4. Current draw:
 	5. Protocol: 
 	6. Footprint:
-	7. STM32 Pins used: PA15, PB3, PB5, PB10, PB11
+	7. STM32 Pins used: 3.3V, GND, PA15, PB3, PB5, PB10, PB11
 	8. Additional components needed: 4.7kOhm resistor plus entire breakout board circuit.
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
