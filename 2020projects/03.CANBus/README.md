@@ -19,8 +19,9 @@
 	3. Protocol: CANBus
 	4. Footprint: BluePill Board provided in Fritzing example file.
 	5. STM32 Pins used:
-	    1. 1x CANcontroller: 3.3V, GND, B8 + B9 (single ended bus), A9, A10, A11, and A12 (UART).
-		2. 2s CANdevices: 3.3V, GND, A11+A12 (single ended bus), B12, B13, and B14
+	    1. main CANcontroller: 3.3V, GND, B8 + B9 (single ended bus), A9, A10, A11, and A12 (UART).
+		2. front CANdevice: 3.3V, GND, A11+A12 (single ended bus), B12, B13, and B14
+		3. rear CANdevice: 3.3V, GND, A11+A12 (single ended bus), B12, B13, and B14
 	6. Additional components needed: 3 full BluePill devices needed, eight LEDs (use the LEDbar), eight 220 Ohm resistors, 4.7kOhm resistor
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
