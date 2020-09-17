@@ -20,7 +20,7 @@
 	4. Current draw:
 	5. Protocol: SPI 
 	6. Footprint:
-	7. STM32 Pins used: 3.3V, GND, 
+	7. STM32 Pins used: 3.3V, GND, PA4, PA5, PA6, PA7
 	8. Additional components needed:
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
