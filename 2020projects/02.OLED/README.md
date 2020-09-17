@@ -26,6 +26,5 @@
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [Beginning STM32 Chapters 12 and 13 especially Figure 12-4](https://learning-oreilly-com.ezproxy.humber.ca/library/view/beginning-stm32-developing/9781484236246/html/465982_1_En_1_Chapter.xhtml)      
 [Schematic for a breakout board for a similar display](https://cdn-learn.adafruit.com/assets/assets/000/093/884/original/adafruit_products_0-96in_OLED_sch.png?1596746114)     
-[Code] (https://github.com/Apress/Beg-STM32-Devel-FreeRTOS-libopencm3-GCC/tree/master/rtos/oled)     
-[Hand soldering OLED]
-(https://www.youtube.com/watch?v=ywh_6SPNrSg)
+[Code](https://github.com/Apress/Beg-STM32-Devel-FreeRTOS-libopencm3-GCC/tree/master/rtos/oled)     
+[Hand soldering OLED](https://www.youtube.com/watch?v=ywh_6SPNrSg)
