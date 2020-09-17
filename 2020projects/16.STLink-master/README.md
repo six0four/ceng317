@@ -18,7 +18,7 @@
 	2. Current draw:
 	3. Protocol: SWD
 	4. Footprint: BluePill Board provided in Fritzing example file.
-	5. STM32 Pins used: 
+	5. STM32 Pins used: GND, 
 	6. Additional components needed: Many, 2 full BluePill devices needed + ?
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    

@@ -20,7 +20,7 @@
 	4. Current draw:
 	5. Protocol:
 	6. Footprint:
-	7. STM32 Pins used: 
+	7. STM32 Pins used: 3.3V, GND, 
 	8. Additional components needed: [Buzzer?](https://github.com/themightyteam/bluepill-examples/tree/master/examples/buzzer) If finding an appropriate Seong Ji part is becoming overwhelming, I would consider playing some music via a buzzer instead. The route to Sigfox for us seems to be a breakout board. Let me know your thoughts.
 	    1. OPL: [ShenZhen](https://www.seeedstudio.com/opl.html)
         2. MPN: Piezo

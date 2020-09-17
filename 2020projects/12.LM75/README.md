@@ -20,7 +20,7 @@
 	4. Current draw:
 	5. Protocol:
 	6. Footprint:
-	7. STM32 Pins used: 
+	7. STM32 Pins used: 3.3V, GND, 
 	8. Additional components needed: 3x10kOhm, 1x0.1uFCap
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    

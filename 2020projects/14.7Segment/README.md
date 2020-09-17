@@ -20,7 +20,7 @@
 	4. Current draw:
 	5. Protocol: GPIO
 	6. Footprint:
-	7. STM32 Pins used: 
+	7. STM32 Pins used: 3.3V, GND, 
 	8. Additional components needed:
 		1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
 		2. MPN: RC0603JR-07220RL
