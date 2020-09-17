@@ -13,13 +13,21 @@
     5. Description:	LED Red 4-DIG 7-SEG Display
 	6. Manufacturer: FANGZHOU
 	7. Package: PTH
+3. Modified Bill of Material for better datasheet/footprint	
+    1. OPL: [Shenzen](https://www.seeedstudio.com/opl.html)
+    2. MPN: TDSL3160
+	3. Qty: 2 (may need port expander or creative configuration)
+	4. Link: https://www.vishay.com/docs/83122/tdsl31.pdf
+    5. Description:	DISPLAY 7-SEG. 10MM LC RED C.C.-
+	6. Manufacturer: Vishay
+	7. Package: PTH	
 4. Specifications
     1. What does it sense/effect?
 	2. How accurate is it?
     3. Voltage range:
 	4. Current draw:
 	5. Protocol: GPIO
-	6. Footprint:
+	6. Footprint: In fritzing got CORE->Output->7 Segment Display (10mm, cc)
 	7. STM32 Pins used: 3.3V, GND, #? GPIO pins
 	8. Additional components needed:
 		1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
