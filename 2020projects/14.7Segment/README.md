@@ -20,7 +20,7 @@
 	4. Current draw:
 	5. Protocol: GPIO
 	6. Footprint: In fritzing got CORE->Output->7 Segment Display (10mm, cc)
-	7. STM32 Pins used: 3.3V, GND, PA3 for decimal point, 01.PCF8574 for segments
+	7. STM32 Pins used: 3.3V, GND, PA3 for the decimal point, 01.PCF8574 for the segments
 	8. Additional components needed:
 		1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
 		2. MPN: RC0603JR-07220RL
