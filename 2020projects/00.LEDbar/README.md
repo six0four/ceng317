@@ -20,7 +20,7 @@
 	4. Current draw: Design for 10mA/segment
 	5. Protocol: GPIO
 	6. Footprint: In fritzing search for "led_bar" 
-	7. STM32 Pins used: 3.3V, GND, 10 GPIO, 7 could be via the PCF8574 P0-P6, currently PA0-PA7 so far.
+	7. STM32 Pins used: 3.3V, GND, 10 GPIO, 7 could be via the PCF8574 P0-P6, currently PA0-PA7 so far but a 7 Segment display will now be used instead.
 	8. Additional components needed:
 	    1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
 		2. MPN: RC0603JR-07220RL
