@@ -16,7 +16,7 @@
 3. Modified Bill of Material for better datasheet/footprint	
     1. OPL: [Shenzen](https://www.seeedstudio.com/opl.html)
     2. MPN: TDSL3160
-	3. Qty: 2 (may need port expander or creative configuration)
+	3. Qty: 1 
 	4. Link: https://www.vishay.com/docs/83122/tdsl31.pdf
     5. Description:	DISPLAY 7-SEG. 10MM LC RED C.C.-
 	6. Manufacturer: Vishay
@@ -28,7 +28,7 @@
 	4. Current draw:
 	5. Protocol: GPIO
 	6. Footprint: In fritzing got CORE->Output->7 Segment Display (10mm, cc)
-	7. STM32 Pins used: 3.3V, GND, #? GPIO pins
+	7. STM32 Pins used: 3.3V, GND, PA3 for decimal point, 01.PCK8574 for segments
 	8. Additional components needed:
 		1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
 		2. MPN: RC0603JR-07220RL
