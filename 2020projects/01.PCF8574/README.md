@@ -20,7 +20,7 @@
 	4. Current draw:
 	5. Protocol: I2C
 	6. Footprint: 
-	7. STM32 Pins used: 3.3V, GND, PB8, PB9, PC14
+	7. STM32 Pins used: 3.3V, GND, PB6, PB7, PC14 (Consider jumpers to allow connection to PB8, PB9)
 	8. Additional components needed: two LEDs, three 4.7kOhm resistors, two 220 Ohm resistors, switch (perhaps use switch that is incorporated into the 04.ADC project joystick).
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
