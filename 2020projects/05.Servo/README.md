@@ -20,7 +20,7 @@
 	4. Current draw:
 	5. Protocol:
 	6. Footprint:
-	7. STM32 Pins used: 3.3V, GND, 5V dc adaptor, PA1
+	7. STM32 Pins used: 3.3V, GND, 5V dc adaptor/battery, PA1
 	8. Additional components needed:	
         1. OPL: [ShenZhen](https://www.seeedstudio.com/opl.html)
         2. MPN: 210S-1*3P L=11.6MM
