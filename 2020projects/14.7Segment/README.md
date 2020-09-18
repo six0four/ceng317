@@ -5,14 +5,6 @@
      3. Section:
      4. Effector choice: 7 Segment Display
 2. I will make USB serial device, that will receive input for an effector, via [Seeed Studio assembly](https://www.seeedstudio.com/fusion_pcb.html). This can be connected via a USB cable to a PC and PuTTY can be used for debugging. It can then also be connected to a Pi via USB but not necessarily this term. 
-3. Preliminary Bill of Materials
-    1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
-    2. MPN: SYD3642ASR
-	3. Qty: 1
-	4. Link: https://statics3.seeedstudio.com/images/opl/datasheet/304080005.pdf
-    5. Description:	LED Red 4-DIG 7-SEG Display
-	6. Manufacturer: FANGZHOU
-	7. Package: PTH
 3. Modified Bill of Material for better datasheet/footprint	
     1. OPL: [Shenzen](https://www.seeedstudio.com/opl.html)
     2. MPN: TDSL3160
