@@ -30,5 +30,23 @@
 		6. Manufacturer: Yageo
 		7. Package: 0603
     7. Additional components continued: Jumpers?
+    1. OPL: [ShenZhen](https://www.seeedstudio.com/opl.html)
+    2. MPN: SKRHABE010
+	3. Qty: 1
+	4. Links: https://tech.alpsalpine.com/prod/e/html/multicontrol/switch/skrh/skrhabe010.html
+    5. Description:	4-direction with Center-push Function
+	6. Manufacturer: ALPS
+	7. Package: SMD
+	4. Specifications
+    1. What does it sense/effect?
+	2. How accurate is it?
+    3. Voltage range:
+	4. Current draw:
+	5. Protocol: Digital
+	6. Footprint: In fritzing search for "joystick_mini"
+	7. STM32 Pins used: 3.3V, GND, 
+	8. Additional components needed: 4 LEDs, 4 resistors
+
+	
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
