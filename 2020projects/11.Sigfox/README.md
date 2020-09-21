@@ -20,13 +20,13 @@
 	4. Current draw:
 	5. Protocol:
 	6. Footprint:
-	7. STM32 Pins used: 3.3V, GND, 
+	7. STM32 Pins used: 3.3V, GND, Buzzer: PA8
 	8. Additional components needed: [Buzzer?](https://github.com/themightyteam/bluepill-examples/tree/master/examples/buzzer) If finding an appropriate Seong Ji part is becoming overwhelming, I would consider playing some music via a buzzer instead. The route to Sigfox for us seems to be a breakout board. Let me know your thoughts.
 	    1. OPL: [ShenZhen](https://www.seeedstudio.com/opl.html)
         2. MPN: Piezo
 	    3. Qty: 1
 	    4. Link: https://www.murata.com/~/media/webrenewal/support/library/catalog/products/sound/p37e.ashx
-        5. Description:	Pins for servo
+        5. Description:	
 	    6. Manufacturer: Murata
 	    7. Package: 
 5. References:    
