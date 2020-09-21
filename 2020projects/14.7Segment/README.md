@@ -32,4 +32,4 @@
     9. Additional components continued: Jumpers?
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
-[How a 7 segment display works on a different microcontroller](https://osoyoo.com/2017/08/08/arduino-lesson-4-digit-7-segment-led-display/)
+[How a multi digit 7 segment display works on a different microcontroller](https://osoyoo.com/2017/08/08/arduino-lesson-4-digit-7-segment-led-display/)
