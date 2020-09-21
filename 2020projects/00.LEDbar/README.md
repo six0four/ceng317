@@ -20,7 +20,7 @@
 	4. Current draw: Design for 10mA/segment
 	5. Protocol: GPIO
 	6. Footprint: In fritzing search for "led_bar" 
-	7. STM32 Pins used: 3.3V, GND, 10 GPIO, 7 could be via the PCF8574 P0-P6, currently PA0-PA7 so far but a 7 Segment display will now be used instead.
+	7. STM32 Pins used: 3.3V, GND, 10 GPIO, 7 could be via the PCF8574 P0-P6, currently PA0-PA7 so far but a 7 Segment display will now be used instead. These components will not be used on the PCBA but if they were, we would add two more PCF8574s.
 	8. Additional components needed:
 	    1. OPL: [Seeed](https://www.seeedstudio.com/opl.html)
 		2. MPN: RC0603JR-07220RL
@@ -46,7 +46,5 @@
 	6. Footprint: In fritzing search for "joystick_mini"
 	7. STM32 Pins used: 3.3V, GND, 
 	8. Additional components needed: 4 LEDs, 4 resistors
-
-	
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
