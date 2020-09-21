@@ -20,7 +20,7 @@
 	4. Current draw:
 	5. Protocol:
 	6. Footprint:
-	7. STM32 Pins used: 3.3V, GND, I2C2: PB10, PB11, LEDs: PB6, PB7 (LED pins need to be reassigned)
+	7. STM32 Pins used: 3.3V, GND, OS/INT: PB1, I2C2: PB10, PB11, instead of using: PB6, PB7 as LED pins, let us use the segments on the 7 segment display via 01.PCF8574 instead.
 	8. Additional components needed: 3x10kOhm, 1x0.1uFCap
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
