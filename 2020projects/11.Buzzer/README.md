@@ -21,7 +21,7 @@
 	5. Protocol:
 	6. Footprint:
 	7. STM32 Pins used: 3.3V, GND, Buzzer: PA8
-	8. Additional components needed: [Buzzer?](https://github.com/themightyteam/bluepill-examples/tree/master/examples/buzzer) If finding an appropriate Seong Ji part is becoming overwhelming, I would consider playing some music via a buzzer instead. The route to Sigfox for us seems to be a breakout board. Let me know your thoughts.
+	8. Additional components needed: If finding an appropriate Seong Ji part is becoming overwhelming, I would consider playing some music via a buzzer instead. The route to Sigfox for us seems to be a breakout board. Let me know your thoughts.
 	    1. OPL: [ShenZhen](https://www.seeedstudio.com/opl.html)
         2. MPN: PKLCS1212E40A1-R1
 	    3. Qty: 1
@@ -31,6 +31,7 @@
 	    7. Package: 
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
+[Buzzer](https://github.com/themightyteam/bluepill-examples/tree/master/examples/buzzer)    
 6. Previous project information:    
 [STM32 to sigfox](https://medium.com/coinmonks/connect-stm32-blue-pill-to-sigfox-28c6f91bddc1)    
 [Activating sigfox](https://backend.sigfox.com/activate)
