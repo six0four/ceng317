@@ -7,12 +7,12 @@
 2. I will make a USB serial device, that will store and provide data, via [Seeed Studio assembly](https://www.seeedstudio.com/fusion_pcb.html). This can be connected via a USB cable to a PC and PuTTY can be used for debugging. It can then also be connected to a Pi via USB but not necessarily this term. 
 3. Preliminary Bill of Materials
     1. OPL: [ShenZhen](https://www.seeedstudio.com/opl.html)
-    2. MPN: W25Q64JV
+    2. MPN: W25Q64JVSSIQ
 	3. Qty: 1
-	4. Link: 
-    5. Description:	
-	6. Manufacturer: 
-	7. Package: 
+	4. Link: https://www.winbond.com/resource-files/w25q64jv%20spi%20revg%2012142016.pdf
+    5. Description:	8-SOIC（0.209"，5.30mm)
+	6. Manufacturer: Winbond
+	7. Package: 8-SOIC
 4. Specifications
     1. What does it sense/effect?
 	2. How accurate is it?
