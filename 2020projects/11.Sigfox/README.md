@@ -23,7 +23,7 @@
 	7. STM32 Pins used: 3.3V, GND, Buzzer: PA8
 	8. Additional components needed: [Buzzer?](https://github.com/themightyteam/bluepill-examples/tree/master/examples/buzzer) If finding an appropriate Seong Ji part is becoming overwhelming, I would consider playing some music via a buzzer instead. The route to Sigfox for us seems to be a breakout board. Let me know your thoughts.
 	    1. OPL: [ShenZhen](https://www.seeedstudio.com/opl.html)
-        2. MPN: KLCS1212E40A1
+        2. MPN: PKLCS1212E40A1-R1
 	    3. Qty: 1
 	    4. Link: https://www.murata.com/~/media/webrenewal/support/library/catalog/products/sound/p37e.ashx
         5. Description:	BUZZER PIEZO 3V 12MM SMD
