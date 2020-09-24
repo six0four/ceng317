@@ -31,5 +31,6 @@
 	    7. Package: 
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
+6. Previous project information:    
 [STM32 to sigfox](https://medium.com/coinmonks/connect-stm32-blue-pill-to-sigfox-28c6f91bddc1)    
 [Activating sigfox](https://backend.sigfox.com/activate)
