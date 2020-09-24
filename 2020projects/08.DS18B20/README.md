@@ -20,7 +20,7 @@
 	4. Current draw:
 	5. Protocol:
 	6. Footprint:
-	7. STM32 Pins used: 3.3V, GND, PB12, (optional button mentioned on PB11, use joytick pushbutton feature on PCF8574 instead)
+	7. STM32 Pins used: 3.3V, GND, PB12, (optional button mentioned on PB11, use joystick pushbutton feature on PCF8574 instead)
 	8. Additional components needed: 4.7kOhm resistor
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
