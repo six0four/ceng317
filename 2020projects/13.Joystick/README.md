@@ -21,8 +21,8 @@
 	4. Current draw:
 	5. Protocol: Analog
 	6. Footprint: In fritzing search for "09032"
-	7. STM32 Pins used: 3.3V, GND, as per 04.ADC: PA0, PA2, push button functionality will be implemented via 01.PCF8574
-	8. Additional components needed: 4 segments of the 7 segment display via 01.PCF8574 as LEDs, 4 resistors
+	7. STM32 Pins used: 3.3V, GND, as per [04.ADC](https://github.com/six0four/ceng317/tree/master/2020projects/04.ADC): PA0, PA2, push button functionality will be implemented via 01.PCF8574
+	8. Additional components needed: 4 segments of the 7 segment display via [01.PCF8574](https://github.com/six0four/ceng317/tree/master/2020projects/01.PCF8574) as LEDs, 4 resistors
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [Code N.B. use port A or B instead of port C](https://github.com/libopencm3/libopencm3-examples/blob/master/examples/stm32/f1/waveshare-open103r/joystick/joystick.c)
