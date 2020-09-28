@@ -9,7 +9,7 @@
     1. OPL: [ShenZhen or Seeed](https://www.seeedstudio.com/opl.html)
     2. MPN: 74HCT245PW (ShenZhen) or 74VHC125MTCX (Seeed) may be able to be used in place of CD4050BE
 	3. Qty: 1
-	4. Link: 
+	4. Link: https://statics3.seeedstudio.com/images/opl/datasheet/310050042.pdf
     5. Description:	
 	6. Manufacturer: 
 	7. Package: 
