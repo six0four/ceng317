@@ -39,4 +39,5 @@
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [Beginning STM32 Chapter 16 especially Figure 16-3](https://learning-oreilly-com.ezproxy.humber.ca/library/view/beginning-stm32-developing/9781484236246/html/465982_1_En_1_Chapter.xhtml)     
+[Level shifters, N.B. at least one datasheet mentions connecting unused inputs to say GND](https://learn.adafruit.com/neopixels-on-raspberry-pi/raspberry-pi-wiring)   
 [Code](https://github.com/Apress/Beg-STM32-Devel-FreeRTOS-libopencm3-GCC/tree/master/rtos/tim2_pwm)
