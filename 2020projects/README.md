@@ -9,4 +9,34 @@
 	3. Headers start with a J followed by a number.
 	4. 3.3V net label used for CANmain/I2Cmaster/STLinkTarget STM32 (J0,J1).
 	5. GND net label used for common connection to CANmain/I2Cmaster/STLinkTarget STM32 (J0,J1) and CANrear/I2Cslave/STLink STM32 (J2,J3). Although some designers use a ground disconnect and open drain design to separate circuits it is problematic when using shielded cables and considering what would happen when a cable gets pinched. We will try to disconnect power instead.
+3. J Headers, note that uSD disconnect is simply removing the card:
+    0. CANmain/I2Cmaster/STLinkTarget STM32
+	1. CANmain/I2Cmaster/STLinkTarget STM32
+	2. CANrear/I2Cslave/STLink STM32
+	3. CANrear/I2Cslave/STLink STM32
+	4. PCF8574, Joystick, 7 Segment disconnect
+	5. Servo pin header
+	6. Flash disconnect
+	7. BME disconnect
+	8. Flow control disconnect
+	9. Flow control disconnect
+	10. Programming port/for serial TTL cable
+	11. Inter STM32 3.3V disconnect
+	12. STLink voltage divider disconnect
+	13. MOSIsd
+	14. MISOsd
+	15. SCKsd
+	16. NSSsd
+	17. MOSIflash
+	18. MISOflash
+	19. SCKflash
+	20. NSSflash
+	21. MOSIbme
+	22. MISObme
+	23. SCKbme
+	24. NSSbme
+	25. Available
+	26. PCF8574 Interrupt disconnect
+	27. DS18B20 disconnect
+	
 	
