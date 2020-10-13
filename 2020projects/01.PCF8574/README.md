@@ -20,8 +20,8 @@
 	4. Current draw:
 	5. Protocol: I2C
 	6. Footprint: 
-	7. STM32 Pins used: 3.3V, GND, PB6, PB7, PC14 (Consider jumpers to allow connection to PB8, PB9)
-	8. Additional components needed: two segments from the [7 segment display](https://github.com/six0four/ceng317/tree/master/2020projects/14.7Segment) as indicator LEDs, three 4.7kOhm resistors, two 220 Ohm resistors, switch (perhaps use switch that is incorporated into the 04.ADC project joystick).
+	7. STM32 Pins used: 3.3V (J4 for power disconnection), GND, PB6, PB7 (J26, J27 to allow connection to PB8, PB9), PC14 (R30 pullup, J25 is for interrupt disconnection).
+	8. Additional components needed: two segments from the [7 segment display](https://github.com/six0four/ceng317/tree/master/2020projects/14.7Segment) as indicator LEDs, three 4.7kOhm resistors (R28, R29, R30), two 220 Ohm resistors, switch (use switch that is incorporated into the 04.ADC project joystick).
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [Beginning STM32 Chapter 11 especially Figure 11-9](https://learning-oreilly-com.ezproxy.humber.ca/library/view/beginning-stm32-developing/9781484236246/html/465982_1_En_1_Chapter.xhtml)     
