@@ -35,8 +35,19 @@
 	22. MISObme
 	23. SCKbme
 	24. NSSbme
-	25. Available
-	26. PCF8574 Interrupt disconnect
-	27. DS18B20 disconnect
+	25. PCF8574 Interrupt disconnect
+	26. PCF8574 SDA choice
+	27. PCF8574 SCL choice
+	28. CAN disconnect
+	29. CAN disconnect
+	30. CAN disconnect
+	31. CAN LEDs power disconnect
+	32. STLink header
+	33. STLink R37 disconnect
+	34. STLink NRST disconnect
+	35. DS18B20 disconnect
+	36. TTL3.3V disconnect
+	37. SDAslave disconnect
+	38. SCLslave disconnect
 	
 	
