@@ -49,5 +49,12 @@
 	36. TTL3.3V disconnect
 	37. SDAslave disconnect
 	38. SCLslave disconnect
+	39. LM75-OLED DC
+	40. LM75-OLED RST
+	41. OLED MOSI
+	42. OLED SCK
+	43. OLED NSS
+	44. OLED 3.3V
+	
 	
 	
