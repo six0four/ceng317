@@ -21,7 +21,7 @@
 	5. Protocol: Current Programming Resistor, status LEDs (signals could alternatively be connected to GPIO)
 	6. Footprint:
 	7. STM32 Pins used: 5V?, GND, 3.3V
-	8. Additional components needed: Input capacitor, output capacitor, connection to 5V on STM32 via a Schottky diode, 2 status LEDs with their corresponding 2 resistors, Current Programming Resistor, JST connector, and a battery (e.g. Adafruit Product ID: 2750)
+	8. Additional components needed: Input capacitor, output capacitor, connection to 5V on STM32 via a Schottky diode, 2 status LEDs with their corresponding 2 resistors, Current Programming Resistor, JST connector, and a battery (e.g. Adafruit Product ID: 1578)
 5. References:    
 [Fritzing for Inventors](https://learning-oreilly-com.ezproxy.humber.ca/library/view/fritzing-for-inventors/9780071844642/ch01.html#ch01)    
 [Similarly functioning product](https://learn.adafruit.com/adafruit-pro-trinket-lipoly-slash-liion-backpack/downloads)
