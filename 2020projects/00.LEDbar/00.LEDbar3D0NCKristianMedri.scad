@@ -6,96 +6,97 @@ $fn=64;
 difference(){
 
     {
-        xdim2 = 120;
-        ydim2 = 140;
-        zdim2 = 22;
-        translate([-xdim2/2, -ydim2/2, -zdim2])
+        exteriorX = 120;
+        exteriorY = 140;
+        exteriorZ = 22;
+        translate([-exteriorX/2, -exteriorY/2, -exteriorZ])
         {
-            cube([xdim2,ydim2,zdim2]);
+            cube([exteriorX,exteriorY,exteriorZ]);
         }
     }
-    xdim1 = 100;
-    ydim1 = 87;
-    zdim1 = 20.5;
+    interiorX = 100;
+    interiorY = 87;
+    interiorZ = 20;
     //holes for acrylic top cover
-    radius = 2;    
-    translate([-110/2,130/2,-22.5])
+    coverRadius = 4/2;    
+    translate([-110/2,130/2,-exteriorZ-.5])
     {
-        cylinder (23,radius,radius);
+        cylinder (exteriorZ+1,coverRadius,coverRadius);
     }
-    translate([-110/2,-130/2,-22.5])
+    translate([-110/2,-130/2,-exteriorZ-.5])
     {
-        cylinder (23,radius,radius);
+        cylinder (exteriorZ+1,coverRadius,coverRadius);
     }
-    translate([110/2,130/2,-22.5])
+    translate([110/2,130/2,-exteriorZ-.5])
     {
-        cylinder (23,radius,radius);
+        cylinder (exteriorZ+1,coverRadius,coverRadius);
     }
-    translate([110/2,-130/2,-22.5])
+    translate([110/2,-130/2,-exteriorZ-.5])
     {
-        cylinder (23,radius,radius);
+        cylinder (exteriorZ+1,coverRadius,coverRadius);
     }
     //cut out for battery
-    translate([-36,38,-15])
+    translate([-36,38,-interiorZ])
     {
-        cube([36,29,15.5]);
+        cube([36,29,interiorZ+.5]);
     }
     //cut out for battery cable
-    translate([-6,32.5,-15])
+    translate([-6,31.5,-interiorZ])
     {
-        cube([5,6,15.5]);
+        cube([5,7,interiorZ+.5]);
     }
     //cut out for servo
-    translate([25-10,46-10,-15])
+    translate([25-10,46-10,-interiorZ])
     {
-        cube([23+10,12+10,15.5]);
+        cube([23+10,12+10,interiorZ+.5]);
     } 
     //cut outs for servo cable
-    translate([6,45.5,-15])
+    translate([6,45.5,-interiorZ])
     {
-        cube([18,5,15.5]);
+        cube([18,5,interiorZ+.5]);
     }     
-    translate([2,32.5,-15])
+    translate([2,31.5,-interiorZ])
     {
-        cube([5,18,15.5]);
+        cube([5,19,interiorZ+.5]);
     }    
     //shift of PCB from center
     translate([0,-(140-102-2)/2,0]){
     //space for PCB
-    translate([-102/2,-102/2,-15])
+    translate([-102/2,-102/2,-interiorZ+5])
     {
-        cube([102,102,15.5]);
+        cube([102,102,interiorZ-4.5]);
     }
     //holes for PCB
-        translate([-96/2,96/2,-22.5])
+    PCBradius = 4/2;
+        translate([-96/2,96/2,-exteriorZ-.5])
     {
-        cylinder (23,radius,radius);
+        cylinder (exteriorZ+1,PCBradius,PCBradius);
     }
-    translate([-96/2,-96/2,-22.5])
+    translate([-96/2,-96/2,-exteriorZ-.5])
     {
-        cylinder (23,radius,radius);
+        cylinder (exteriorZ+1,PCBradius,PCBradius);
     }
-    translate([96/2,96/2,-22.5])
+    translate([96/2,96/2,-exteriorZ-.5])
     {
-        cylinder (23,radius,radius);
+        cylinder (exteriorZ+1,PCBradius,PCBradius);
     }
-    translate([96/2,-96/2,-22.5])
+    translate([96/2,-96/2,-exteriorZ-.5])
     {
-        cylinder (23,radius,radius);
+        cylinder (exteriorZ+1,PCBradius,PCBradius);
     }
     //cut outs for PCB mounts
-    translate([-xdim1/2, -ydim1/2, -zdim1+2.5])
+    translate([-interiorX/2, -interiorY/2, -interiorZ])
     {
-        cube([xdim1,ydim1,zdim1]);
+        cube([interiorX,interiorY,interiorZ]);
     }
-    translate([-(xdim1-12)/2, -(ydim1+13)/2, -zdim1+2.5])
+    translate([-(interiorX-12)/2, -(interiorY+13)/2, -interiorZ])
     {
-        cube([xdim1-12,ydim1+13,zdim1]);
+        cube([interiorX-12,interiorY+13,interiorZ]);
     }
     //micro USB Sidewall cut out
-    translate([-xdim1/2+2, -(ydim1-12)/2, -zdim1+2.5])
+    translate([-interiorX/2+2, -(interiorY-12)/2, -interiorZ])
     {
-        cube([xdim1+9,ydim1-12,zdim1]);
+        cube([interiorX+9,interiorY-12,interiorZ]);
     }
     }//shift of PCB from center
 
