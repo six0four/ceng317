@@ -59,46 +59,52 @@ difference(){
     {
         cube([5,19,interiorZ+.5]);
     }    
+    //micro SD card cut out
+    widthSD=20;
+    translate([-15.4-widthSD, -(exteriorY)/2-0.5, -exteriorZ-0.5])
+    {
+        cube([widthSD,4+.5,7+0.5]);
+    }
     //shift of PCB from center
     translate([0,-(140-102-2)/2,0]){
-    //space for PCB
-    translate([-102/2,-102/2,-interiorZ+5])
-    {
-        cube([102,102,interiorZ-4.5]);
-    }
-    //holes for PCB
-    PCBradius = 4/2;
-        translate([-96/2,96/2,-exteriorZ-.5])
-    {
-        cylinder (exteriorZ+1,PCBradius,PCBradius);
-    }
-    translate([-96/2,-96/2,-exteriorZ-.5])
-    {
-        cylinder (exteriorZ+1,PCBradius,PCBradius);
-    }
-    translate([96/2,96/2,-exteriorZ-.5])
-    {
-        cylinder (exteriorZ+1,PCBradius,PCBradius);
-    }
-    translate([96/2,-96/2,-exteriorZ-.5])
-    {
-        cylinder (exteriorZ+1,PCBradius,PCBradius);
-    }
-    //cut outs for PCB mounts
-    translate([-interiorX/2, -interiorY/2, -interiorZ])
-    {
-        cube([interiorX,interiorY,interiorZ]);
-    }
-    translate([-(interiorX-12)/2, -(interiorY+13)/2, -interiorZ])
-    {
-        cube([interiorX-12,interiorY+13,interiorZ]);
-    }
-    //micro USB Sidewall cut out
-    translate([-interiorX/2+2, -(interiorY-12)/2, -interiorZ])
-    {
-        cube([interiorX+9,interiorY-12,interiorZ+.5]);
-    }
+        //space for PCB
+        translate([-102/2,-102/2,-interiorZ+5])
+        {
+            cube([102,102,interiorZ-4.5]);
+        }
+        //holes for PCB
+        PCBradius = 4/2;
+            translate([-96/2,96/2,-exteriorZ-.5])
+        {
+            cylinder (exteriorZ+1,PCBradius,PCBradius);
+        }
+        translate([-96/2,-96/2,-exteriorZ-.5])
+        {
+            cylinder (exteriorZ+1,PCBradius,PCBradius);
+        }
+        translate([96/2,96/2,-exteriorZ-.5])
+        {
+            cylinder (exteriorZ+1,PCBradius,PCBradius);
+        }
+        translate([96/2,-96/2,-exteriorZ-.5])
+        {
+            cylinder (exteriorZ+1,PCBradius,PCBradius);
+        }
+        //cut outs for PCB mounts
+        translate([-interiorX/2, -interiorY/2, -interiorZ])
+        {
+            cube([interiorX,interiorY,interiorZ]);
+        }
+        translate([-(interiorX-12)/2, -(interiorY+13)/2, -interiorZ])
+        
+        {
+            cube([interiorX-12,interiorY+13,interiorZ]);
+        }
+        //micro USB Sidewall cut out
+        translate([-interiorX/2+2, -(interiorY-12)/2, -interiorZ])
+        {
+            cube([interiorX+9,interiorY-12,interiorZ+.5]);
+        }
     }//shift of PCB from center
-
 }
 //} //translate for KiCAD
