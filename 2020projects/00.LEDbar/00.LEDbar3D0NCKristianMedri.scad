@@ -96,7 +96,7 @@ difference(){
     //micro USB Sidewall cut out
     translate([-interiorX/2+2, -(interiorY-12)/2, -interiorZ])
     {
-        cube([interiorX+9,interiorY-12,interiorZ]);
+        cube([interiorX+9,interiorY-12,interiorZ+.5]);
     }
     }//shift of PCB from center
 
