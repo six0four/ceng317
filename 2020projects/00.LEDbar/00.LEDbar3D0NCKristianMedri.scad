@@ -18,7 +18,7 @@ translate([150.33,-100.8-18,15-1.6]){rotate([0,0,180]){
         interiorY = 87;
         interiorZ = 20;
         //holes for acrylic top cover
-        coverRadius = 4/2;    
+        coverRadius = 3.5/2;    
         translate([-110/2,130/2,-exteriorZ-.5])
         {
             cylinder (exteriorZ+1,coverRadius,coverRadius);
@@ -73,7 +73,7 @@ translate([150.33,-100.8-18,15-1.6]){rotate([0,0,180]){
                 cube([102,102,interiorZ-4.5]);
             }
             //holes for PCB
-            PCBradius = 4/2;
+            PCBradius = 3.5/2;
                 translate([-96/2,96/2,-exteriorZ-.5])
             {
                 cylinder (exteriorZ+1,PCBradius,PCBradius);
