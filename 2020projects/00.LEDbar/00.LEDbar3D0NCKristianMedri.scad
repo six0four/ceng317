@@ -1,7 +1,7 @@
 $fn=64;
 //cylinder (18,1,1);
 //cube(5,5,5);
-translate([120,-100,-30]){ //For KiCAD
+translate([150.33,18-100.8,15]){ //to fit PCB from KiCAD
     difference(){
     
         {
