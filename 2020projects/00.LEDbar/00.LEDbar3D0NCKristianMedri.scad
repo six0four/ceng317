@@ -1,7 +1,8 @@
 $fn=64;
 //cylinder (18,1,1);
 //cube(5,5,5);
-translate([150.33,18-100.8,15]){ //to fit PCB from KiCAD
+//to fit PCB from KiCAD
+translate([150.33,-100.8-18,15-1.6]){rotate([0,0,180]){
     difference(){
     
         {
@@ -106,4 +107,4 @@ translate([150.33,18-100.8,15]){ //to fit PCB from KiCAD
             }
         }//shift of PCB from center
     }
-} //translate for KiCAD
+}} //rotate and translate for KiCAD
