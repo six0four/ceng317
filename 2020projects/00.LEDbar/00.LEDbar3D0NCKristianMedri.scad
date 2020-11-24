@@ -2,6 +2,13 @@ $fn=64;
 //cylinder (18,1,1);
 //cube(5,5,5);
 //to fit PCB from KiCAD
+interiorX = 100;
+interiorY = 100;
+interiorZ = 20;
+holeOffset = 5.08;
+PCBradius = 3.5/2;
+mountSize = holeOffset+PCBradius+2;
+mountHoleCentre = (interiorX-holeOffset*2)/2;
 translate([150.33,-100.8-18,15-1.6]){rotate([0,0,180]){
     difference(){
     
@@ -9,16 +16,14 @@ translate([150.33,-100.8-18,15-1.6]){rotate([0,0,180]){
             exteriorX = 120;
             exteriorY = 140;
             exteriorZ = 22;
+            coverRadius = 3.5/2;
             translate([-exteriorX/2, -exteriorY/2, -exteriorZ])
             {
                 cube([exteriorX,exteriorY,exteriorZ]);
             }
         }
-        interiorX = 100;
-        interiorY = 87;
-        interiorZ = 20;
-        //holes for acrylic top cover
-        coverRadius = 3.5/2;    
+
+        //holes for acrylic top cover    
         translate([-110/2,130/2,-exteriorZ-.5])
         {
             cylinder (exteriorZ+1,coverRadius,coverRadius);
@@ -73,38 +78,37 @@ translate([150.33,-100.8-18,15-1.6]){rotate([0,0,180]){
                 cube([102,102,interiorZ-4.5]);
             }
             //holes for PCB
-            PCBradius = 3.5/2;
-                translate([-96/2,96/2,-exteriorZ-.5])
+                translate([-mountHoleCentre,mountHoleCentre,-exteriorZ-.5])
             {
                 cylinder (exteriorZ+1,PCBradius,PCBradius);
             }
-            translate([-96/2,-96/2,-exteriorZ-.5])
+            translate([-mountHoleCentre,-mountHoleCentre,-exteriorZ-.5])
             {
                 cylinder (exteriorZ+1,PCBradius,PCBradius);
             }
-            translate([96/2,96/2,-exteriorZ-.5])
+            translate([mountHoleCentre,mountHoleCentre,-exteriorZ-.5])
             {
                 cylinder (exteriorZ+1,PCBradius,PCBradius);
             }
-            translate([96/2,-96/2,-exteriorZ-.5])
+            translate([mountHoleCentre,-mountHoleCentre,-exteriorZ-.5])
             {
                 cylinder (exteriorZ+1,PCBradius,PCBradius);
             }
             //cut outs for PCB mounts
-            translate([-interiorX/2, -interiorY/2, -interiorZ])
+            translate([-interiorX/2, -(interiorY-mountSize*2)/2, -interiorZ])
             {
-                cube([interiorX,interiorY,interiorZ]);
+                cube([interiorX,(interiorY-mountSize*2),interiorZ]);
             }
-            translate([-(interiorX-12)/2, -(interiorY+13)/2, -interiorZ])
+            translate([-(interiorX-mountSize*2)/2, -(interiorY)/2, -interiorZ])
             
             {
-                cube([interiorX-12,interiorY+13,interiorZ]);
+                cube([interiorX-mountSize*2,interiorY,interiorZ]);
             }
             //micro USB Sidewall cut out
-            translate([-interiorX/2+2, -(interiorY-12)/2, -interiorZ])
+            translate([-interiorX/2+2, -(75)/2, -interiorZ])
             {
-                cube([interiorX+9,interiorY-12,interiorZ+.5]);
+                cube([interiorX+9,75,interiorZ+.5]);
             }
         }//shift of PCB from center
-    }
+    }//difference
 }} //rotate and translate for KiCAD
